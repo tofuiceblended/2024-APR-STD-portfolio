@@ -46,10 +46,32 @@ header {
     text-decoration: none;
 }
 
+@media screen and (min-width: 600px) {
+    header {
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-between;
+    }
+
+    .name {
+        margin-bottom: 0;
+    }
+
+    #nav-items {
+        width: 50%;
+    }
+
+    .social-media {
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
 footer {
     background-color: var (--primary-color)
-    text-align: centre;
-    padding; 1rem;
+    text-align; centre;
+    padding: 16px;
 
 }
 
@@ -69,5 +91,5 @@ footer {
 }
 
 .info p {
-    margin: 5px;
+    margin: 5px 0;
 }
