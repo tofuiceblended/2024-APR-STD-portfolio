@@ -4,6 +4,15 @@
     --primary-background: #d9d9d9;
 }
 
+body {
+    margin: 0;
+
+    min-width: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
 header {
     background-color: var(--primary-color);
     text-align: center;
@@ -19,7 +28,7 @@ header {
 }
 
 .coder-text {
-    color: #83695B;
+    color: #D9D9D9;
 }
 
 .academy-text {
@@ -35,4 +44,30 @@ header {
 
 #nav-items a {
     text-decoration: none;
+}
+
+footer {
+    background-color: var (--primary-color)
+    text-align: centre;
+    padding; 1rem;
+
+}
+
+.social-media {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 24px;
+}
+
+.social-media a i {
+    font-size: 24px;
+    color: #83695B;
+}
+
+.info {
+    color:#83695B;
+}
+
+.info p {
+    margin: 5px;
 }
