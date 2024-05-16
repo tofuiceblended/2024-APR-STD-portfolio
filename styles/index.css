@@ -69,8 +69,8 @@ header {
 }
 
 footer {
-    background-color: var (--primary-color)
-    text-align; centre;
+    background-color: var(--primary-color);
+    text-align: centre;
     padding: 16px;
 
 }
